@@ -7,11 +7,11 @@
 
 #======================================================#
 
-// Feito por Paulo Archanjo
+// Feito por Paulo Archanjo (Hogtear)
 
 main()
 {
-	# AcentuaÁ„o de caracteres para PortuguÍs do Brasil
+	# Acentua√ß√£o de caracteres para Portugu√™s do Brasil
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	
 	char op;
@@ -28,7 +28,7 @@ main()
 	printf("\n   C. Celsius para Kelvin \t\t\t D. Kelvin para Celsius\n");
 	printf("\n   E. Fahrenheit para Celsius \t\t\t F. Celsius em Fahrenheit\n");
 	printf("\n \t\t\t\t   S. SAIR\n");
-	printf("\n\n   Escolha a sua OpÁ„o: ");
+	printf("\n\n   Escolha a sua Op√ß√£o: ");
 	op=toupper(getche());
 	switch (op)
 	{
@@ -101,7 +101,7 @@ main()
      	}	
 		default:
 			{
-			printf ("\n\nOP«√O INV¡LIDA\n");
+			printf ("\n\nOP√á√ÉO INV√ÅLIDA\n");
 			}
 		
 	}
